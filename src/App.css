@@ -1,1 +1,37 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1560957123-e8e019c66980?q=80&w=2881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.header, .search-bar, .news-list {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
 
+input, select, button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.news-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 4px;
+}
